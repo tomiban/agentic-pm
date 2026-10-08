@@ -59,12 +59,33 @@ No todo merece un PRD completo. Elegir el nivel según el alcance:
 Señal de sobre-documentación: el PRD es más largo que el código que va a generar.
 El objetivo es **claridad suficiente para ejecutar bien**, no documentación máxima.
 
+## Casos borde
+
+No alcanza con una lista fija. Recorrer `references/casos-borde.md`: 10 categorías
+(validación de entrada, permisos, estados de UI, concurrencia, red, integridad de datos,
+tiempo, comportamiento del usuario, navegador, lógica de negocio) con ~100 puntos.
+
+Priorizar por impacto: crítico (pérdida de datos, seguridad, dinero) > alto (bloquea al
+usuario) > medio (tiene workaround) > bajo (cosmético).
+
 ## Al escribir criterios de aceptación
+
+Tres formatos posibles — usar el que mejor exprese la regla
+(ver `references/tecnicas-especificacion.md`): Given/When/Then, lista de verificación,
+o basado en reglas. No forzar Gherkin donde no aplica.
 
 - **Específico, no ambiguo.** "Rápido" no sirve; "carga en <500ms con skeleton UI" sí.
 - **Definir "terminado".** Si no se puede testear, no es un requisito.
 - **Documentar lo que NO incluye.** "V1 NO incluye: colaboración, versionado, offline"
   previene el scope creep.
+
+## Antes de dar una historia por lista (INVEST)
+
+Verificar contra `references/tecnicas-especificacion.md`:
+- ¿Hubo conversación con el cliente o solo la tarjeta? (las 3 C: Card, Conversation, Confirmation)
+- ¿Se puede construir sin depender de otra historia? (Independiente)
+- ¿Es verificable objetivamente? (Testeable)
+- Si no pasa: dividir con los patrones de la guía (por flujo, por regla, por dato, por interfaz, CRUD, camino feliz primero)
 
 ## Handoff a desarrollo
 

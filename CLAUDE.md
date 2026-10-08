@@ -32,10 +32,14 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 | Decisiones técnicas | `architecture/decisions/` |
 | MVP y fases | `roadmap/` |
 | Trazabilidad | `traceability/` |
+| Guías de método | `references/` |
 
 ## Referencia de formato
 
 Ante dudas de formato o nivel de detalle, mirá `examples/solicitudes/`.
+
+Antes de dar una historia por terminada, recorré `references/casos-borde.md` y
+verificá INVEST en `references/tecnicas-especificacion.md`.
 
 ## Orden de ejecución
 

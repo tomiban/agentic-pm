@@ -63,6 +63,31 @@ Bajo valor, alto esfuerzo  (Evitar)             → descartar
 - **Día 1 vs Día 100:** lo del Día 1 habilita la primera impresión; lo del Día 100, la
   retención. MVP = solo lo del Día 1.
 
+### Kano — para entender qué espera el usuario
+
+| Categoría | Qué significa | Ejemplo |
+|-----------|---------------|---------|
+| **Básico** | Se da por sentado; si falta, molesta | login funciona |
+| **De desempeño** | Más es mejor | velocidad de carga |
+| **De deleite** | Sorpresa positiva | atajos de teclado |
+| **Indiferente** | Da igual | color del botón |
+| **Contradictorio** | A algunos gusta, a otros no | notificaciones push |
+
+Útil para discutir con el cliente por qué algo "obvio" no es prioridad: lo básico es MUST,
+lo de desempeño compite por recursos, lo de deleite va a V2.
+
+### Weighted scoring — cuando hay varios criterios
+
+Cuando la decisión no es solo valor/esfuerzo, ponderar criterios:
+
+| Criterio | Peso | Func. A | Func. B |
+|----------|------|---------|---------|
+| Valor para el cliente | 40% | 5 | 3 |
+| Esfuerzo (invertido) | 25% | 2 | 5 |
+| Riesgo (invertido) | 20% | 4 | 4 |
+| Dependencias | 15% | 3 | 5 |
+| **Total** | | **3.75** | **3.95** |
+
 ## Validación de alcance
 
 Antes de cerrar el MVP, verificar que ninguna feature MUST dependa de una SHOULD/COULD.
