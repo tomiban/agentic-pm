@@ -42,6 +42,29 @@ US-001 Crear solicitud
 └── T-004  Testing  · integración del flujo      (cumple AC-001, AC-002)
 ```
 
+## Granularidad: cuántas tareas por historia
+
+Normalmente **3 a 6**. Una historia cruza capas; cada capa es una tarea.
+
+**Criterio de corte:** una tarea es una unidad de trabajo que una persona completa
+sin coordinar con otra, en ~1 día o menos, verificable por sí sola.
+
+| Señal | Acción |
+|-------|--------|
+| Tiene más de un "y" en la descripción | dividir |
+| Mezcla capas (backend + frontend) | dividir |
+| No cabe en una sesión de trabajo | dividir |
+| "Crear el archivo X" sin propósito | agrupar con la tarea que lo usa |
+| Una tarea por archivo | demasiado fino: agrupar por intención |
+
+**Una historia = una tarea** es válido pero excepcional (cambio de una sola capa,
+sin persistencia). Si te pasa seguido, las historias están demasiado chicas.
+
+**Cobertura:** todo criterio de aceptación y todo caso borde debe estar cubierto por
+al menos una tarea. Si un criterio no lo cubre ninguna, falta una tarea.
+
+Método completo en `references/granularidad-tareas.md`.
+
 ## Duplicación: qué sí y qué no
 
 Copiar los criterios de aceptación de la historia a la tarea **no es duplicar

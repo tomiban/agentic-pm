@@ -88,3 +88,4 @@ project/
   - `entrevistas.md` — cómo relevar sin inducir
   - `roadmap-fases.md` — fases, buffer, mantenimiento
   - `capas-documentacion.md` — qué va dónde y cómo evitar duplicar
+  - `granularidad-tareas.md` — cuántas tareas por historia

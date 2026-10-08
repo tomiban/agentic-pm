@@ -13,6 +13,7 @@ en español, basado en prácticas estándar de ingeniería de requisitos.
 | `entrevistas.md` | Guía de reunión, reglas de entrevista, 5 causas, detección de respuestas inducidas | Agente de Relevamiento / Investigación |
 | `roadmap-fases.md` | Buffer, composición de fase, dependencias, criterios de finalización, mantenimiento, anti-patrones | Agente de Roadmap |
 | `capas-documentacion.md` | Qué pregunta responde cada artefacto, PRD como vista derivada, cuándo NO documentar | Agente de Requisitos / Desarrollo |
+| `granularidad-tareas.md` | Cuántas tareas por historia, criterio de corte, cobertura de criterios y casos borde | Agente de Desarrollo |
 
 ## Principio
 
