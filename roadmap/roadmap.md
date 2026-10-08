@@ -1,5 +1,7 @@
 # Roadmap
 
+> Ordenamiento de features dentro de cada fase: ver `prioritization.md`.
+
 ## FASE 0 — Fundaciones
 - **Objetivo:**
 - **Features:** arquitectura, CI/CD, autenticación, base de datos

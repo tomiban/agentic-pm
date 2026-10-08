@@ -32,7 +32,7 @@ Cargá las notas. Luego invocá el **Discovery Agent** (`agents/discovery.md`).
 | Investigación | `agents/research.md` | respuestas a preguntas abiertas |
 | Reunión 2 | — | validación con cliente |
 | Modelado | `agents/requirements-engineer.md` | modules, RF/RNF, épicas, historias |
-| Priorización | `agents/feature-prioritizer.md` | `roadmap/mvp.md` |
+| Priorización | `agents/feature-prioritizer.md` | `roadmap/mvp.md`, `roadmap/prioritization.md` |
 | Roadmap | `agents/roadmap-builder.md` | `roadmap/roadmap.md` |
 | Desarrollo | `agents/development.md` | backlog técnico |
 
