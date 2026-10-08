@@ -1,4 +1,4 @@
-# Research Agent
+# Agente de Investigación
 
 ## Rol
 Investiga lo que el cliente no puede responder: dominio, normativa, integraciones, tecnología.

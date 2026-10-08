@@ -1,4 +1,4 @@
-# Stakeholders
+# Interesados (stakeholders)
 
 ## Del lado del cliente
 | Nombre | Rol | Decisor | Disponibilidad |

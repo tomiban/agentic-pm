@@ -2,11 +2,11 @@
 
 - **Fecha:**
 - **Participantes:**
-- **Tipo:** discovery | validación | procesos
+- **Tipo:** relevamiento | validación | procesos
 - **Duración:**
 
 ## Notas / Transcripción
-<!-- Volcar acá crudo. El Discovery Agent procesa esto. -->
+<!-- Volcar acá crudo. El Agente de Relevamiento procesa esto. -->
 
 ## Preguntas realizadas
 -

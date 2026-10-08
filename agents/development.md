@@ -1,4 +1,4 @@
-# Development Agent
+# Agente de Desarrollo
 
 ## Rol
 Descompone historias listas en tareas técnicas implementables.

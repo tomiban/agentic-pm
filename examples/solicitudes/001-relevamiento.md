@@ -1,8 +1,8 @@
-# Reunión 001 — Discovery inicial (EJEMPLO)
+# Reunión 001 — Relevamiento inicial (EJEMPLO)
 
 - **Fecha:** 2026-10-08
 - **Participantes:** Cliente (Jefe de Operaciones), Analista
-- **Tipo:** discovery
+- **Tipo:** relevamiento
 - **Duración:** 60 min
 
 ## Notas / Transcripción

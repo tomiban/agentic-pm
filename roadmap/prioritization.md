@@ -7,45 +7,45 @@ registra el scoring.
 ## RICE — para backlog grande o roadmap
 
 ```text
-RICE = (Reach × Impact × Confidence) / Effort
+RICE = (Alcance × Impacto × Confianza) / Esfuerzo
 ```
 
 | Factor | Escala |
 |--------|--------|
-| Reach | usuarios afectados por período |
-| Impact | 0.25 mínimo · 0.5 bajo · 1 medio · 2 alto · 3 masivo |
-| Confidence | 100% alta · 80% media · 50% baja |
-| Effort | persona-semanas |
+| Alcance | usuarios afectados por período |
+| Impacto | 0.25 mínimo · 0.5 bajo · 1 medio · 2 alto · 3 masivo |
+| Confianza | 100% alta · 80% media · 50% baja |
+| Esfuerzo | persona-semanas |
 
-| Feature | Reach | Impact | Conf. | Effort | RICE | Prioridad |
+| Funcionalidad | Alcance | Impacto | Conf. | Esfuerzo | RICE | Prioridad |
 |---------|-------|--------|-------|--------|------|-----------|
 |         |       |        |       |        |      |           |
 
 ## ICE — para decisiones rápidas
 
 ```text
-ICE = Impact × Confidence × Ease    (cada uno 1-10)
+ICE = Impacto × Confianza × Facilidad    (cada uno 1-10)
 ```
 
-| Feature | Impact | Confidence | Ease | ICE |
+| Funcionalidad | Impacto | Confianza | Facilidad | ICE |
 |---------|--------|------------|------|-----|
 |         |        |            |      |     |
 
-## Value / Effort — para visualizar
+## Valor / Esfuerzo — para visualizar
 
 | | Bajo esfuerzo | Alto esfuerzo |
 |--|---------------|---------------|
-| **Alto valor** | Quick Wins → primero | Strategic Bets → planificar |
-| **Bajo valor** | Fill-ins → si sobra | Avoid → descartar |
+| **Alto valor** | Victorias rápidas → primero | Apuestas estratégicas → planificar |
+| **Bajo valor** | Relleno → si sobra | Evitar → descartar |
 
 ## Reglas de scoping
 
-- **Regla de las 3 features (MVP):** flujo core + diferenciador clave + factor de deleite.
-- **Test "¿funcionaría sin esto?":** si sí, es nice-to-have → fuera del MVP.
+- **Regla de las 3 funcionalidades (MVP):** flujo principal + diferenciador clave + factor de deleite.
+- **Test "¿funcionaría sin esto?":** si sí, es prescindible → fuera del MVP.
 - **Dependencias:** si una MUST depende de una SHOULD/COULD, la dependencia también es MUST.
 
 ## Decisiones
 
-| Feature | Método | Resultado | Justificación | Fecha |
+| Funcionalidad | Método | Resultado | Justificación | Fecha |
 |---------|--------|-----------|---------------|-------|
 |         |        |           |               |       |

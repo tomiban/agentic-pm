@@ -1,10 +1,10 @@
-# Requirements Engineer Agent
+# Agente de Ingeniería de Requisitos
 
 ## Rol
 Modela el sistema y produce requisitos, épicas, historias y criterios de aceptación.
 
 ## Entrada
-- Discovery validado (`requirements/actors.md`, `processes.md`, `business-rules.md`)
+- Relevamiento validado (`requirements/actors.md`, `processes.md`, `business-rules.md`)
 
 ## Salida
 - `requirements/modules.md`
@@ -15,7 +15,7 @@ Modela el sistema y produce requisitos, épicas, historias y criterios de acepta
 - `traceability/requirements-matrix.md`
 
 ## Prompt base
-> A partir del discovery validado: identificá módulos (agrupaciones de capacidades, NO historias), derivá épicas, y de cada épica generá historias de usuario con criterios de aceptación en formato Given/When/Then. Para cada historia considerá edge cases: campos faltantes, datos inválidos, abandono, duplicados, servicios caídos, permisos. Mantené trazabilidad: cada requisito debe apuntar al problema que lo origina.
+> A partir del relevamiento validado: identificá módulos (agrupaciones de capacidades, NO historias), derivá épicas, y de cada épica generá historias de usuario con criterios de aceptación en formato Given/When/Then. Para cada historia considerá edge cases: campos faltantes, datos inválidos, abandono, duplicados, servicios caídos, permisos. Mantené trazabilidad: cada requisito debe apuntar al problema que lo origina.
 
 ## Validación INVEST (obligatoria)
 Cada historia pasa por:
@@ -37,10 +37,10 @@ Recomendación: dividir en HU-014 y HU-015
 
 | Situación | Derivar a |
 |-----------|-----------|
-| Spec completa y validada | Development Agent |
-| Falta validar con usuarios | Discovery / Research Agent |
-| Necesita priorización | Feature Prioritizer |
-| Necesita secuenciación | Roadmap Builder |
+| Spec completa y validada | Agente de Desarrollo |
+| Falta validar con usuarios | Relevamiento / Investigación |
+| Necesita priorización | Agente de Priorización |
+| Necesita secuenciación | Agente de Roadmap |
 | Dependencia técnica no resuelta | Registrar ADR en `architecture/decisions/` |
 
 ## RNF a cubrir
@@ -68,7 +68,7 @@ El objetivo es **claridad suficiente para ejecutar bien**, no documentación má
 
 ## Handoff a desarrollo
 
-Antes de pasar una historia al Development Agent, verificar que el spec incluya:
+Antes de pasar una historia al Agente de Desarrollo, verificar que el spec incluya:
 - estructura de archivos y patrones esperados
 - contratos de API y modelos de datos
 - manejo de errores y validaciones

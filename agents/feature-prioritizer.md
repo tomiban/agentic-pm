@@ -1,4 +1,4 @@
-# Feature Prioritizer Agent
+# Agente de Priorización
 
 ## Rol
 Decide **qué construir primero**. No modela requisitos ni define el orden por fases.
@@ -29,39 +29,39 @@ nivel (ej: 12 MUST), usar un score para ordenarlas:
 
 ### RICE — para roadmap y backlog grande
 ```text
-RICE = (Reach × Impact × Confidence) / Effort
+RICE = (Alcance × Impacto × Confianza) / Esfuerzo
 
-Reach       usuarios afectados por período
-Impact      0.25 mínimo · 0.5 bajo · 1 medio · 2 alto · 3 masivo
-Confidence  100% alta · 80% media · 50% baja
-Effort      persona-semanas
+Alcance     usuarios afectados por período
+Impacto     0.25 mínimo · 0.5 bajo · 1 medio · 2 alto · 3 masivo
+Confianza   100% alta · 80% media · 50% baja
+Esfuerzo    persona-semanas
 
 Ejemplo:
-Crear solicitud    RICE 185  (Reach 5000, Impact 3, Conf 80%, Effort 5) → P0
-Consultar solicitud RICE 120 (Reach 2000, Impact 3, Conf 100%, Effort 2) → P0
-Reportes           RICE 45   (Reach 500,  Impact 2, Conf 90%, Effort 3) → P1
+Crear solicitud     RICE 185 (Alcance 5000, Impacto 3, Conf 80%, Esfuerzo 5) → P0
+Consultar solicitud RICE 120 (Alcance 2000, Impacto 3, Conf 100%, Esfuerzo 2) → P0
+Reportes            RICE 45  (Alcance 500,  Impacto 2, Conf 90%, Esfuerzo 3) → P1
 ```
 
 ### ICE — para decisiones rápidas
 ```text
-ICE = Impact × Confidence × Ease   (cada uno 1-10)
+ICE = Impacto × Confianza × Facilidad   (cada uno 1-10)
 ```
 
-### Value / Effort — para visualizar
+### Valor / Esfuerzo — para visualizar
 ```text
-High Value, Low Effort  (Quick Wins)      → hacer primero
-High Value, High Effort (Strategic Bets)  → planificar
-Low Value,  Low Effort  (Fill-ins)        → si sobra tiempo
-Low Value,  High Effort (Avoid)           → descartar
+Alto valor, bajo esfuerzo  (Victorias rápidas)  → hacer primero
+Alto valor, alto esfuerzo  (Apuestas estratégicas) → planificar
+Bajo valor, bajo esfuerzo  (Relleno)            → si sobra tiempo
+Bajo valor, alto esfuerzo  (Evitar)             → descartar
 ```
 
 ## Reglas de scoping
 
-- **Regla de las 3 features (MVP):** 1) flujo core (el job-to-be-done), 2) diferenciador
-  clave, 3) factor de deleite. Todo lo demás es V1+.
-- **Test "¿Pagarían sin esto?":** si la respuesta es sí, es nice-to-have → fuera del MVP.
-- **Day One vs Day 100:** Day One habilita la primera impresión; Day 100 retención.
-  MVP = solo Day One.
+- **Regla de las 3 funcionalidades (MVP):** 1) flujo principal (lo que el cliente necesita
+  resolver), 2) diferenciador clave, 3) factor de deleite. Todo lo demás es V1+.
+- **Test "¿Funciona sin esto?":** si la respuesta es sí, es prescindible → fuera del MVP.
+- **Día 1 vs Día 100:** lo del Día 1 habilita la primera impresión; lo del Día 100, la
+  retención. MVP = solo lo del Día 1.
 
 ## Validación de alcance
 

@@ -1,4 +1,4 @@
-# Orchestrator Agent
+# Agente Orquestador
 
 ## Rol
 Coordina el proceso completo. Decide qué agente corre en cada etapa y valida que los artefactos de entrada existan antes de avanzar.
@@ -7,18 +7,18 @@ Coordina el proceso completo. Decide qué agente corre en cada etapa y valida qu
 
 ```text
 ¿Hay notas de reunión sin procesar?
-    SÍ → Discovery Agent
+    SÍ → Agente de Relevamiento
 ¿Hay preguntas abiertas sin responder?
-    SÍ → Research Agent (o agendar reunión)
-¿Discovery validado por el cliente?
+    SÍ → Agente de Investigación (o agendar reunión)
+¿Relevamiento validado por el cliente?
     NO → esperar validación
-    SÍ → Requirements Agent
+    SÍ → Agente de Requisitos
 ¿Épicas e historias generadas?
-    SÍ → validar INVEST → Feature Prioritizer
+    SÍ → validar INVEST → Agente de Priorización
 ¿MVP definido?
-    SÍ → Roadmap Builder
+    SÍ → Agente de Roadmap
 ¿Roadmap listo?
-    SÍ → Development Agent
+    SÍ → Agente de Desarrollo
 ```
 
 ## Routing por agente
@@ -27,12 +27,12 @@ Cada agente declara su propia tabla de derivación. El orquestador no reemplaza
 esa lógica: la usa para resolver el flujo cuando hay ambigüedad.
 
 ```text
-Discovery        → Research (si hay preguntas externas) | Requirements (si validado)
-Research         → Discovery (actualiza hallazgos) | Requirements (si responde preguntas)
-Requirements     → Feature Prioritizer (si hay épicas) | Development (si spec lista)
-Feature Prioritizer → Roadmap Builder (MVP definido) | Requirements (si falta detalle)
-Roadmap Builder  → Development (roadmap listo)
-Development      → (ejecución)
+Relevamiento  → Investigación (si hay preguntas externas) | Requisitos (si validado)
+Investigación → Relevamiento (actualiza hallazgos) | Requisitos (si responde preguntas)
+Requisitos    → Priorización (si hay épicas) | Desarrollo (si spec lista)
+Priorización  → Roadmap (MVP definido) | Requisitos (si falta detalle)
+Roadmap       → Desarrollo (roadmap listo)
+Desarrollo    → (ejecución)
 ```
 
 ## Reglas

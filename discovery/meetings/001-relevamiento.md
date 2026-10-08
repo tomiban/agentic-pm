@@ -1,8 +1,8 @@
-# Reunión 001 — Discovery inicial
+# Reunión 001 — Relevamiento inicial
 
 - **Fecha:**
 - **Participantes:**
-- **Tipo:** discovery
+- **Tipo:** relevamiento
 - **Duración:**
 
 ## Notas / Transcripción

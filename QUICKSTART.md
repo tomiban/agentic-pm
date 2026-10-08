@@ -1,4 +1,4 @@
-# Quickstart
+# Inicio rápido
 
 ## 1. Crear un proyecto nuevo desde este template
 
@@ -20,15 +20,15 @@ Editá `.claude/project-context/`:
 ## 3. Primera reunión
 
 ```bash
-cp discovery/meetings/templates/meeting-template.md discovery/meetings/001-discovery.md
+cp discovery/meetings/templates/meeting-template.md discovery/meetings/001-relevamiento.md
 ```
-Cargá las notas. Luego invocá el **Discovery Agent** (`agents/discovery.md`).
+Cargá las notas. Luego invocá el **Agente de Relevamiento** (`agents/discovery.md`).
 
 ## 4. Continuar el flujo
 
 | Etapa | Agente | Produce |
 |-------|--------|---------|
-| Reunión 1 | `agents/discovery.md` | actors, processes, business-rules, open-questions |
+| Reunión 1 | `agents/discovery.md` | actores, procesos, reglas de negocio, preguntas abiertas |
 | Investigación | `agents/research.md` | respuestas a preguntas abiertas |
 | Reunión 2 | — | validación con cliente |
 | Modelado | `agents/requirements-engineer.md` | modules, RF/RNF, épicas, historias |

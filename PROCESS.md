@@ -103,7 +103,7 @@ Proceso: Registrar solicitud
 
 ## 4. El agente después de la reunión
 
-Entrada: `discovery/meetings/001-discovery.md` con la transcripción/notas.
+Entrada: `discovery/meetings/001-relevamiento.md` con la transcripción/notas.
 
 Prompt:
 > Analiza el relevamiento. No inventes requisitos. Separá hechos mencionados por el cliente, supuestos, decisiones y preguntas abiertas. Identificá actores, procesos, problemas, reglas de negocio y restricciones.
@@ -330,11 +330,11 @@ Ahí entra el agente de desarrollo (Claude Code).
 ## 16. Flujo final con cliente
 
 ```text
-REUNIÓN 1 → Discovery Agent → Problemas + actores + procesos + preguntas
-REUNIÓN 2 → Validación → Requirements Engineer → Requisitos + módulos + reglas
+REUNIÓN 1 → Agente de Relevamiento → Problemas + actores + procesos + preguntas
+REUNIÓN 2 → Validación → Agente de Requisitos → Requisitos + módulos + reglas
 → Épicas → Historias → Criterios de aceptación → Validación con cliente
-→ Feature Prioritizer → MVP / V1 / V2
-→ Roadmap Builder → Roadmap
+→ Agente de Priorización → MVP / V1 / V2
+→ Agente de Roadmap → Roadmap
 → PRD + Technical Specs
 → Claude Code → IMPLEMENTACIÓN
 ```

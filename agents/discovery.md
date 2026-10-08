@@ -1,4 +1,4 @@
-# Discovery Agent
+# Agente de Relevamiento
 
 ## Rol
 Transforma notas de reunión en conocimiento estructurado. **No inventa requisitos.**

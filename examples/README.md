@@ -7,7 +7,7 @@ Ejemplo end-to-end de un sistema de gestión de solicitudes de trámite:
 
 | Archivo | Etapa | Descripción |
 |---------|-------|-------------|
-| `001-discovery.md` | Discovery | Notas de la primera reunión |
+| `001-relevamiento.md` | Relevamiento | Notas de la primera reunión |
 | `actors.md` | Análisis | Actores identificados |
 | `open-questions.md` | Análisis | Preguntas abiertas |
 | `requests.md` | Épicas | Épica de gestión de solicitudes |

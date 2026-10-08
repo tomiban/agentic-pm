@@ -6,7 +6,7 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 
 1. Leé `README.md` y `PROCESS.md` para entender el flujo.
 2. Antes de actuar, revisá el estado del repo: qué artefactos existen y cuáles faltan.
-3. Seguí el flujo del **Orchestrator** (`agents/orchestrator.md`) para saber qué etapa corresponde.
+3. Seguí el flujo del **Orquestador** (`agents/orchestrator.md`) para saber qué etapa corresponde.
 4. Usá el agente específico según la etapa (`agents/*.md`).
 
 ## Reglas no negociables
@@ -40,5 +40,5 @@ Ante dudas de formato o nivel de detalle, mirá `examples/solicitudes/`.
 ## Orden de ejecución
 
 ```text
-Discovery → Research → Requirements → Feature Prioritizer → Roadmap → Development
+Relevamiento → Investigación → Requisitos → Priorización → Roadmap → Desarrollo
 ```

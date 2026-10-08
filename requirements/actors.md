@@ -1,6 +1,6 @@
 # Actores
 
-> Fuente: discovery. No inventar actores no mencionados.
+> Fuente: relevamiento. No inventar actores no mencionados.
 
 | ID | Actor | Descripción | Responsabilidades | Fuente |
 |----|-------|-------------|-------------------|--------|
