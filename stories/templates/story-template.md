@@ -31,6 +31,10 @@ And <resultado adicional>
 |----------|------|------|
 | Actor · Valor · Independiente · Estimable · Pequeña · Testeable | | |
 
+## Definition of Done
+Aplica el **DoD de historia** (`definition-of-done.md`). Los criterios de aceptación de
+arriba son específicos de esta historia; el DoD es el piso común a todas.
+
 ## Trazabilidad
 PROB-XX → OBJ-XX → EP-XX → US-XXX
 

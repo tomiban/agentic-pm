@@ -95,6 +95,14 @@ Verificar contra `references/tecnicas-especificacion.md`:
 - ¿Es verificable objetivamente? (Testeable)
 - Si no pasa: dividir con los patrones de la guía (por flujo, por regla, por dato, por interfaz, CRUD, camino feliz primero)
 
+## Criterios de aceptación vs. Definition of Done
+
+Al escribir una historia, no confundir:
+- **Criterios de aceptación** — específicos de esa historia, verificables, van en la historia
+- **Definition of Done** — piso común a todo el proyecto, vive en `definition-of-done.md`
+
+No repetir el DoD en cada historia: se enlaza.
+
 ## Cambios sobre requisitos validados
 
 Cuando un requisito ya validado cambia, no se edita en silencio:

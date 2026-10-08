@@ -56,6 +56,62 @@ project/
 └── agents/                    # Definición de los agentes
 ```
 
+
+## Artefactos
+
+### De trabajo (los que se completan por proyecto)
+
+| Artefacto | Dónde | Responde | Lo produce |
+|-----------|-------|----------|------------|
+| Contexto del proyecto | `.claude/project-context/` | ¿Quién, para qué, con qué? | Vos, antes de la reunión 1 |
+| Relevamiento | `discovery/meetings/` | ¿Qué dijo el cliente? | Agente de Relevamiento |
+| Investigación | `discovery/research/` | ¿Qué no sabe el cliente? | Agente de Investigación |
+| Actores | `requirements/actors.md` | ¿Quiénes participan? | Relevamiento |
+| Procesos | `requirements/processes.md` | ¿Cómo se hace hoy? | Relevamiento |
+| Módulos | `requirements/modules.md` | ¿Qué agrupaciones hay? | Requisitos |
+| Reglas de negocio | `requirements/business-rules.md` | ¿Qué restricciones rigen? | Relevamiento → Requisitos |
+| Requisitos funcionales | `requirements/functional.md` | ¿Qué hace el sistema? | Requisitos |
+| Requisitos no funcionales | `requirements/non-functional.md` | ¿Con qué calidad? | Requisitos |
+| Preguntas abiertas | `requirements/open-questions.md` | ¿Qué falta definir? | Todos |
+| Épicas | `epics/` | ¿Qué capacidades grandes? | Requisitos |
+| Historias | `stories/US-XXX.md` | ¿Qué comportamiento? (cliente) | Requisitos |
+| Tareas | `tasks/T-XXX.md` | ¿Qué trabajo? (dev) | Desarrollo |
+| PRD | `prds/` | Resumen ejecutivo para el cliente | Requisitos |
+| Spec técnica | `specs/` *(opcional)* | ¿Cómo se construye? | Desarrollo |
+| Arquitectura | `architecture/` + ADRs | ¿Cómo está estructurado? | Vos + decisiones |
+| MVP | `roadmap/mvp.md` | ¿Qué entra primero? | Priorización |
+| Priorización | `roadmap/prioritization.md` | ¿En qué orden? | Priorización |
+| Roadmap | `roadmap/roadmap.md` | ¿En qué fases? | Roadmap |
+| Trazabilidad | `traceability/requirements-matrix.md` | ¿Por qué existe esto? | Requisitos |
+| Registro de cambios | `traceability/change-log.md` | ¿Qué cambió y por qué? | Requisitos |
+| **Definition of Done** | `definition-of-done.md` | ¿Qué significa terminado? | Acuerdo del equipo |
+
+### De método (no se completan — los consulta el agente)
+
+| Guía | Para |
+|------|------|
+| `references/casos-borde.md` | Checklist de ~100 casos borde en 10 categorías |
+| `references/tecnicas-especificacion.md` | INVEST, las 3 C, formatos de criterios, anti-patrones |
+| `references/sintesis-relevamiento.md` | Procesar notas de reunión sin inventar |
+| `references/entrevistas.md` | Relevar sin inducir, 5 causas |
+| `references/gestion-cambios.md` | Cambios sobre lo validado |
+| `references/alcance-y-objetivos.md` | SMART/OKR, priorización, control de alcance |
+| `references/roadmap-fases.md` | Fases, buffer, mantenimiento |
+| `references/capas-documentacion.md` | Qué va dónde, evitar duplicar |
+| `references/granularidad-tareas.md` | Cuántas tareas por historia |
+
+### Los cuatro niveles de un requisito
+
+```text
+requirements/   ¿por qué?      problema, objetivos
+epics/          ¿qué grande?   agrupación de capacidades
+stories/        ¿qué?          comportamiento (vista del cliente)
+tasks/          ¿cómo?         trabajo (vista del dev, autosuficiente)
+```
+
+Cada artefacto responde **una sola pregunta**. Si dos responden la misma, uno sobra
+(ver `references/capas-documentacion.md`).
+
 ## Principios
 
 1. **No fabricar información.** Separar siempre hechos mencionados por el cliente, supuestos, decisiones y preguntas abiertas.
@@ -64,6 +120,7 @@ project/
 4. **Living documentation.** El repositorio es la fuente de verdad, no las conversaciones con la IA.
 5. **Separación de responsabilidades.** Cada agente hace una cosa: relevamiento, requisitos, priorización, roadmap.
 6. **El dev implementa desde la tarea.** Cada tarea lleva sus criterios de aceptación, para no saltar de archivo. No hace falta adoptar un framework SDD completo.
+7. **"Terminado" se define una vez.** El Definition of Done es el piso común; los criterios de aceptación son específicos de cada historia.
 
 ## Cómo empezar
 

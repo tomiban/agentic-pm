@@ -35,6 +35,7 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 | MVP y fases | `roadmap/` |
 | Trazabilidad | `traceability/` |
 | Cambios sobre requisitos | `traceability/change-log.md` |
+| Definition of Done | `definition-of-done.md` |
 | Guías de método | `references/` |
 
 ## Referencia de formato

@@ -76,6 +76,19 @@ Lo que **sí** es duplicar y hay que evitar (ver `references/capas-documentacion
 - Una spec que repite la justificación de negocio
 - Dos archivos que describen el mismo contrato de API
 
+## Definition of Done
+
+Toda tarea e historia se cierra contra `definition-of-done.md`, no solo contra sus
+criterios de aceptación.
+
+**Distinción clave:** los criterios de aceptación son específicos de una historia
+("valida campos obligatorios"); el DoD es el piso común a todo el trabajo ("los tests
+pasan", "pasó revisión"). Una historia puede cumplir todos sus criterios y no estar
+terminada si no pasa el DoD.
+
+Al desglosar, verificar que cada tarea pueda cumplir el DoD de tarea. Si algo no se
+puede cumplir, se acuerda explícitamente y se registra la excepción.
+
 ## Cuándo escribir `specs/`
 
 Solo si hay diseño técnico que no cabe en una tarea:

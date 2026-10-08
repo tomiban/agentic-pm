@@ -33,3 +33,4 @@ Then <resultado esperado>
 - [ ] Cumple los criterios de aceptación de arriba
 - [ ] Tests: <qué se prueba>
 - [ ] Casos borde de la historia cubiertos
+- [ ] Cumple el **DoD de tarea** (`definition-of-done.md`)
