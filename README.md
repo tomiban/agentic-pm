@@ -25,14 +25,12 @@ REUNIÓN 2  →  Validación        →  Confirmación con el cliente
                      │   ORCHESTRATOR  │
                      └────────┬────────┘
                               │
-          ┌───────────────────┼───────────────────┐
-          │                   │                   │
-          ▼                   ▼                   ▼
-    Research Agent     Requirements Agent   Product Agent
-          │                   │                   ▼
-          │                   ▼              Roadmap Agent
-          │              Feature Agent
-          └───────────────────┴───────────────────┘
+     ┌────────────┬───────────┼───────────┬────────────┐
+     ▼            ▼           ▼           ▼            ▼
+ Discovery    Research   Requirements  Feature     Roadmap
+   Agent        Agent       Agent    Prioritizer    Builder
+     │            │           │           │            │
+     └────────────┴───────────┴───────────┴────────────┘
                               │
                               ▼
                        DEVELOPMENT AGENT
@@ -44,12 +42,12 @@ Ver `agents/` para la definición de cada agente.
 
 ```text
 project/
-├── .claude/product-context/   # Contexto del producto (fuente de verdad)
+├── .claude/project-context/   # Contexto del proyecto (fuente de verdad)
 ├── discovery/                 # Relevamiento: reuniones, entrevistas, research
 ├── requirements/              # Actores, procesos, módulos, reglas, RF/RNF
 ├── epics/                     # Épicas (agrupan historias)
 ├── stories/                   # Historias de usuario + criterios de aceptación
-├── prds/                      # Product Requirement Documents
+├── prds/                      # Documentos de requisitos (PRD)
 ├── architecture/              # Contexto, contenedores, decisiones (ADRs)
 ├── roadmap/                   # MVP y roadmap por fases
 ├── traceability/              # Matriz de trazabilidad
@@ -67,7 +65,7 @@ project/
 ## Cómo empezar
 
 1. Copiar el template: `cp -r agentic-pm/ mi-nuevo-proyecto/`
-2. Completar `.claude/product-context/` con la info del cliente.
+2. Completar `.claude/project-context/` con la info del cliente.
 3. Cargar las notas de la reunión en `discovery/meetings/001-discovery.md`.
 4. Ejecutar el **Discovery Agent** (ver `agents/discovery.md`).
 5. Continuar el flujo etapa por etapa.
@@ -78,18 +76,3 @@ project/
 - `agents/` — definición y responsabilidades de cada agente.
 - `QUICKSTART.md` — cómo arrancar un proyecto nuevo en 5 pasos.
 - `examples/solicitudes/` — caso de referencia completo end-to-end.
-- `docs/comparison.md` — comparación con `ai-pm-copilot` de slgoodrich.
-
-## Origen y atribución
-
-Este framework es **obra propia**: los agentes, templates y el proceso fueron
-redactados de forma independiente a partir de conceptos públicos de ingeniería de
-requisitos (INVEST, MoSCoW, Given/When/Then, C4, trazabilidad).
-
-Se incluye, en `vendor/slgoodrich-agents/`, una copia **sin modificar** de cinco
-agentes de [`slgoodrich/agents`](https://github.com/slgoodrich/agents) (`ai-pm-copilot`
-v1.5.0) para referencia y comparación. Esos archivos están bajo la
-**PolyForm Noncommercial License 1.0.0** — ver `THIRD-PARTY-NOTICES.md`.
-
-> ⚠️ **Si vas a usar este framework con fines comerciales, eliminá `vendor/`.**
-> El resto del framework no depende de él.

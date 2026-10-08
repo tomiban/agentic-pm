@@ -52,7 +52,7 @@
 
 ## 2. Antes de la primera reunión
 
-Crear el repositorio del proyecto con la estructura base. Completar `.claude/product-context/` con lo que ya se sepa del cliente (aunque sea parcial).
+Crear el repositorio del proyecto con la estructura base. Completar `.claude/project-context/` con lo que ya se sepa del cliente (aunque sea parcial).
 
 ---
 

@@ -1,10 +1,5 @@
 # Orchestrator Agent
 
-> **Obra propia.** Este agente fue redactado de forma independiente. Los conceptos
-> que usa (INVEST, MoSCoW, Given/When/Then, trazabilidad) son de dominio público.
-> Ver `THIRD-PARTY-NOTICES.md`. No es obra derivada de `slgoodrich/agents`.
-
-
 ## Rol
 Coordina el proceso completo. Decide qué agente corre en cada etapa y valida que los artefactos de entrada existan antes de avanzar.
 

@@ -1,10 +1,5 @@
 # Requirements Engineer Agent
 
-> **Obra propia.** Este agente fue redactado de forma independiente. Los conceptos
-> que usa (INVEST, MoSCoW, Given/When/Then, trazabilidad) son de dominio público.
-> Ver `THIRD-PARTY-NOTICES.md`. No es obra derivada de `slgoodrich/agents`.
-
-
 ## Rol
 Modela el sistema y produce requisitos, épicas, historias y criterios de aceptación.
 
@@ -59,7 +54,7 @@ No todo merece un PRD completo. Elegir el nivel según el alcance:
 |---------|-----------|-----------|
 | Mejora pequeña | Spec lean | 1-2 páginas |
 | Feature grande | PRD estándar | 3-5 páginas |
-| Producto nuevo | PRD completo (con validación de problema) | extenso |
+| Sistema nuevo | PRD completo (con validación de problema) | extenso |
 
 Señal de sobre-documentación: el PRD es más largo que el código que va a generar.
 El objetivo es **claridad suficiente para ejecutar bien**, no documentación máxima.

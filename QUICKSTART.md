@@ -8,14 +8,14 @@ cd mi-proyecto/
 rm -rf .git && git init
 ```
 
-## 2. Completar contexto del cliente
+## 2. Completar contexto del proyecto
 
-Editá `.claude/product-context/`:
-- `product-info.md` — qué es
-- `goals.md` — objetivos y métricas
-- `customers.md` — usuarios
-- `tech-stack.md` — tecnología
-- `team.md` — equipo y stakeholders
+Editá `.claude/project-context/`:
+- `project-info.md` — qué es y para qué cliente
+- `objectives.md` — objetivo, criterios de éxito y fuera de alcance
+- `stakeholders.md` — quién decide y quién usa el sistema
+- `team.md` — quién desarrolla
+- `tech-stack.md` — tecnología e integraciones
 
 ## 3. Primera reunión
 

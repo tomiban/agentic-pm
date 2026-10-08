@@ -1,4 +1,4 @@
-# Roadmap (resumen ejecutivo)
+# Roadmap (resumen)
 
 <!-- Referencia completa: roadmap/roadmap.md -->
 
