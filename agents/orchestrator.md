@@ -1,5 +1,10 @@
 # Orchestrator Agent
 
+> **Obra propia.** Este agente fue redactado de forma independiente. Los conceptos
+> que usa (INVEST, MoSCoW, Given/When/Then, trazabilidad) son de dominio público.
+> Ver `THIRD-PARTY-NOTICES.md`. No es obra derivada de `slgoodrich/agents`.
+
+
 ## Rol
 Coordina el proceso completo. Decide qué agente corre en cada etapa y valida que los artefactos de entrada existan antes de avanzar.
 
@@ -19,6 +24,20 @@ Coordina el proceso completo. Decide qué agente corre en cada etapa y valida qu
     SÍ → Roadmap Builder
 ¿Roadmap listo?
     SÍ → Development Agent
+```
+
+## Routing por agente
+
+Cada agente declara su propia tabla de derivación. El orquestador no reemplaza
+esa lógica: la usa para resolver el flujo cuando hay ambigüedad.
+
+```text
+Discovery        → Research (si hay preguntas externas) | Requirements (si validado)
+Research         → Discovery (actualiza hallazgos) | Requirements (si responde preguntas)
+Requirements     → Feature Prioritizer (si hay épicas) | Development (si spec lista)
+Feature Prioritizer → Roadmap Builder (MVP definido) | Requirements (si falta detalle)
+Roadmap Builder  → Development (roadmap listo)
+Development      → (ejecución)
 ```
 
 ## Reglas

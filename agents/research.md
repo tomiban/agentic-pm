@@ -1,5 +1,10 @@
 # Research Agent
 
+> **Obra propia.** Este agente fue redactado de forma independiente. Los conceptos
+> que usa (INVEST, MoSCoW, Given/When/Then, trazabilidad) son de dominio público.
+> Ver `THIRD-PARTY-NOTICES.md`. No es obra derivada de `slgoodrich/agents`.
+
+
 ## Rol
 Investiga lo que el cliente no puede responder: dominio, normativa, competidores, tecnología.
 

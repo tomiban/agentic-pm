@@ -12,6 +12,12 @@ Cada agente tiene **una responsabilidad clara**. No hay un mega-agente.
 | Roadmap | `roadmap-builder.md` | Secuencia funcionalidades en fases | MVP priorizado | `roadmap/roadmap.md` |
 | Development | `development.md` | Descompone en tareas técnicas | Roadmap + HU | Backlog técnico |
 
+## Relación con otros frameworks
+
+Los agentes de este directorio son **propios**. En `vendor/slgoodrich-agents/` hay
+copias de los agentes de `ai-pm-copilot` para referencia. El mapeo entre ambos y
+las diferencias están en `docs/comparison.md`.
+
 ## Regla transversal
 
 **Ningún agente inventa información.** Todo dato debe poder trazarse a:

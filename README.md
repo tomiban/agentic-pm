@@ -78,3 +78,18 @@ project/
 - `agents/` — definición y responsabilidades de cada agente.
 - `QUICKSTART.md` — cómo arrancar un proyecto nuevo en 5 pasos.
 - `examples/solicitudes/` — caso de referencia completo end-to-end.
+- `docs/comparison.md` — comparación con `ai-pm-copilot` de slgoodrich.
+
+## Origen y atribución
+
+Este framework es **obra propia**: los agentes, templates y el proceso fueron
+redactados de forma independiente a partir de conceptos públicos de ingeniería de
+requisitos (INVEST, MoSCoW, Given/When/Then, C4, trazabilidad).
+
+Se incluye, en `vendor/slgoodrich-agents/`, una copia **sin modificar** de cinco
+agentes de [`slgoodrich/agents`](https://github.com/slgoodrich/agents) (`ai-pm-copilot`
+v1.5.0) para referencia y comparación. Esos archivos están bajo la
+**PolyForm Noncommercial License 1.0.0** — ver `THIRD-PARTY-NOTICES.md`.
+
+> ⚠️ **Si vas a usar este framework con fines comerciales, eliminá `vendor/`.**
+> El resto del framework no depende de él.

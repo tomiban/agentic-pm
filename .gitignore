@@ -31,3 +31,6 @@ venv/
 # Temporales de trabajo
 tmp/
 *.tmp
+
+# Vendor: se versiona a propósito (atribución de licencia)
+# vendor/
