@@ -1,4 +1,4 @@
-# Matriz de trazabilidad (EJEMPLO)
+# Matriz de trazabilidad
 
 ```text
 Problema → Objetivo → Épica → Historia → Criterio de aceptación → Test
@@ -6,14 +6,14 @@ Problema → Objetivo → Épica → Historia → Criterio de aceptación → Te
 
 | ID | Elemento | Tipo | Origen | Estado |
 |----|----------|------|--------|--------|
-| PROB-01 | Demoras en registrar solicitudes | Problema | [meeting-01] | Confirmado |
-| OBJ-01 | Reducir tiempo de registro | Objetivo | PROB-01 | |
-| EP-01 | Gestión de solicitudes | Épica | PROB-01 | |
-| US-001 | Crear solicitud | Historia | EP-01 | Lista |
-| AC-001 | Solicitud registrada correctamente | Criterio | US-001 | |
-| TEST-001 | Crear solicitud válida | Test | AC-001 | Pendiente |
+| PROB-01 | | Problema | | |
+| OBJ-01 | | Objetivo | PROB-01 | |
+| EP-01 | | Épica | | |
+| US-001 | | Historia | EP-01 | |
+| AC-001 | | Criterio | US-001 | |
+| TEST-001 | | Test | AC-001 | |
 
 ## Cobertura
-- Problemas cubiertos por al menos una épica: 1/1
-- Historias con criterios de aceptación: 1/2
-- Criterios con test asociado: 0/1
+- Problemas cubiertos por al menos una épica: __/__
+- Historias con criterios de aceptación: __/__
+- Criterios con test asociado: __/__

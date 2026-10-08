@@ -76,3 +76,5 @@ project/
 
 - `PROCESS.md` — el proceso detallado paso a paso con ejemplos.
 - `agents/` — definición y responsabilidades de cada agente.
+- `QUICKSTART.md` — cómo arrancar un proyecto nuevo en 5 pasos.
+- `examples/solicitudes/` — caso de referencia completo end-to-end.

@@ -33,6 +33,10 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 | MVP y fases | `roadmap/` |
 | Trazabilidad | `traceability/` |
 
+## Referencia de formato
+
+Ante dudas de formato o nivel de detalle, mirá `examples/solicitudes/`.
+
 ## Orden de ejecución
 
 ```text

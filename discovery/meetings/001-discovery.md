@@ -1,25 +1,17 @@
-# Reunión 001 — Discovery inicial (EJEMPLO)
+# Reunión 001 — Discovery inicial
 
-- **Fecha:** 2026-10-08
-- **Participantes:** Cliente (Jefe de Operaciones), Analista
+- **Fecha:**
+- **Participantes:**
 - **Tipo:** discovery
-- **Duración:** 60 min
+- **Duración:**
 
 ## Notas / Transcripción
-El cliente registra las solicitudes de trámite en planillas de Excel. El proceso
-es lento: cada solicitud tarda ~15 min en registrarse y hay errores de tipeo que
-generan rechazos. El operador revisa manualmente la documentación adjunta.
-Mencionaron que necesitan que el ciudadano pueda hacer el trámite desde el celular
-y que debe integrarse con el sistema de legajo existente vía OAuth.
+<!-- Pegar acá las notas crudas de la reunión con el cliente -->
 
-## Temas cubiertos
-- [x] Problema: registro manual en Excel, lento y con errores
-- [x] Herramientas: Excel, email
-- [x] Actores: ciudadano, operador, supervisor, auditor
-- [x] Procesos: registrar solicitud, revisar, aprobar/rechazar, notificar
-- [x] Restricciones: integración con legajo (OAuth), debe funcionar en móvil
-
-## Preguntas que quedaron abiertas
-- Q-01 ¿Qué sucede después del rechazo? ¿Se puede reabrir?
-- Q-02 ¿Quién puede modificar una solicitud ya enviada?
-- Q-03 ¿Se guardan borradores?
+## Temas a cubrir en esta reunión
+- [ ] Problema: ¿qué quieren resolver? ¿cómo lo hacen hoy?
+- [ ] Herramientas actuales y cuellos de botella
+- [ ] Errores frecuentes e información faltante
+- [ ] Quiénes participan (actores)
+- [ ] Procesos actuales paso a paso
+- [ ] Restricciones (integraciones, normativa, dispositivos)
