@@ -28,7 +28,8 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 | Módulos | `requirements/modules.md` |
 | Épicas | `epics/` |
 | Historias | `stories/US-XXX.md` |
-| PRD | `prds/` |
+| PRD (vista, no copia) | `prds/` |
+| Spec técnica (contratos, modelo de datos) | `specs/` |
 | Decisiones técnicas | `architecture/decisions/` |
 | MVP y fases | `roadmap/` |
 | Trazabilidad | `traceability/` |
@@ -44,6 +45,10 @@ verificá INVEST en `references/tecnicas-especificacion.md`.
 
 Las guías en `references/` son de método: se consultan cuando hacen falta, no se
 copian. Ver `references/README.md` para el índice completo.
+
+**No duplicar información entre artefactos.** Cada uno responde una sola pregunta
+(por qué / qué / cómo / en qué orden). El PRD resume y enlaza; nunca copia requisitos
+ni historias. Ver `references/capas-documentacion.md`.
 
 ## Orden de ejecución
 

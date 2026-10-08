@@ -14,7 +14,7 @@ REUNIÓN 2  →  Validación        →  Confirmación con el cliente
            →  Validación INVEST
            →  Agente de Priorización → MVP / V1 / V2 (MoSCoW)
            →  Agente de Roadmap     →  Roadmap por fases
-           →  PRD + Technical Specs
+           →  PRD (vista) + Spec técnica (cómo)
            →  Claude Code / Dev Agent → Implementación
 ```
 
@@ -46,7 +46,8 @@ project/
 ├── requirements/              # Actores, procesos, módulos, reglas, RF/RNF
 ├── epics/                     # Épicas (agrupan historias)
 ├── stories/                   # Historias de usuario + criterios de aceptación
-├── prds/                      # Documentos de requisitos (PRD)
+├── prds/                      # PRD (vista derivada que resume y enlaza)
+├── specs/                     # Especificación técnica (contratos, modelo de datos)
 ├── architecture/              # Contexto, contenedores, decisiones (ADRs)
 ├── roadmap/                   # MVP y roadmap por fases
 ├── traceability/              # Matriz de trazabilidad + registro de cambios
@@ -84,3 +85,4 @@ project/
   - `alcance-y-objetivos.md` — objetivos, priorización, control de alcance
   - `entrevistas.md` — cómo relevar sin inducir
   - `roadmap-fases.md` — fases, buffer, mantenimiento
+  - `capas-documentacion.md` — qué va dónde y cómo evitar duplicar

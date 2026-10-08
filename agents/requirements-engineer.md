@@ -46,6 +46,14 @@ Recomendación: dividir en HU-014 y HU-015
 ## RNF a cubrir
 seguridad · rendimiento · disponibilidad · accesibilidad · auditoría · escalabilidad · compatibilidad · observabilidad
 
+## El PRD es una vista, no una fuente
+
+El PRD **resume y enlaza**; nunca copia requisitos, historias ni criterios.
+Si algo ya vive en otro archivo, va el enlace. Test: si borrás el PRD, ¿se pierde
+información de requisitos? Si sí, está duplicando. Ver `references/capas-documentacion.md`.
+
+Lo único propio del PRD: resumen ejecutivo, límite de alcance y dependencias externas.
+
 ## Dimensionamiento de la documentación
 
 No todo merece un PRD completo. Elegir el nivel según el alcance:

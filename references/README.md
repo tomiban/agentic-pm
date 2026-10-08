@@ -12,6 +12,7 @@ en español, basado en prácticas estándar de ingeniería de requisitos.
 | `alcance-y-objetivos.md` | SMART/OKR/métrica principal, costo de postergar, scoring por oportunidad, tipos de trabajo, crecimiento de alcance | Agente de Priorización |
 | `entrevistas.md` | Guía de reunión, reglas de entrevista, 5 causas, detección de respuestas inducidas | Agente de Relevamiento / Investigación |
 | `roadmap-fases.md` | Buffer, composición de fase, dependencias, criterios de finalización, mantenimiento, anti-patrones | Agente de Roadmap |
+| `capas-documentacion.md` | Qué pregunta responde cada artefacto, PRD como vista derivada, cuándo NO documentar | Agente de Requisitos / Desarrollo |
 
 ## Principio
 
