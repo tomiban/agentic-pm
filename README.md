@@ -49,7 +49,7 @@ project/
 ├── prds/                      # Documentos de requisitos (PRD)
 ├── architecture/              # Contexto, contenedores, decisiones (ADRs)
 ├── roadmap/                   # MVP y roadmap por fases
-├── traceability/              # Matriz de trazabilidad
+├── traceability/              # Matriz de trazabilidad + registro de cambios
 ├── references/                # Guías de método (casos borde, INVEST, síntesis)
 └── agents/                    # Definición de los agentes
 ```
@@ -76,4 +76,4 @@ project/
 - `agents/` — definición y responsabilidades de cada agente.
 - `QUICKSTART.md` — cómo arrancar un proyecto nuevo en 5 pasos.
 - `examples/solicitudes/` — caso de referencia completo end-to-end.
-- `references/` — guías de método: `casos-borde.md`, `tecnicas-especificacion.md`, `sintesis-relevamiento.md`.
+- `references/` — guías de método: `casos-borde.md`, `tecnicas-especificacion.md`, `sintesis-relevamiento.md`, `gestion-cambios.md`.

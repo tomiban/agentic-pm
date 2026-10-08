@@ -8,6 +8,7 @@ en español, basado en prácticas estándar de ingeniería de requisitos.
 | `casos-borde.md` | Checklist de ~100 casos borde en 10 categorías + plantilla de error + priorización | Agente de Requisitos |
 | `tecnicas-especificacion.md` | Las 3 C, INVEST, 3 formatos de criterios, división de historias, anti-patrones, RNF medibles | Agente de Requisitos |
 | `sintesis-relevamiento.md` | Extracción literal, clasificación, mapa de afinidad, análisis temático, contradicciones | Agente de Relevamiento |
+| `gestion-cambios.md` | Clasificación de cambios, análisis de impacto, congelamiento por fase, registro | Agente de Requisitos |
 
 ## Principio
 

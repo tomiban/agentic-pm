@@ -87,6 +87,19 @@ Verificar contra `references/tecnicas-especificacion.md`:
 - ¿Es verificable objetivamente? (Testeable)
 - Si no pasa: dividir con los patrones de la guía (por flujo, por regla, por dato, por interfaz, CRUD, camino feliz primero)
 
+## Cambios sobre requisitos validados
+
+Cuando un requisito ya validado cambia, no se edita en silencio:
+1. Registrar en `traceability/change-log.md`
+2. Clasificar: corrección · aclaración · alcance nuevo · eliminación · contradicción
+3. **Análisis de impacto:** qué historias, épicas, criterios, ADRs y prioridades se ven afectados
+4. Estimar el costo si es alcance nuevo
+5. Presentar al cliente qué se posterga a cambio
+
+Método completo en `references/gestion-cambios.md`.
+
+**Nunca aceptar un cambio de alcance sin decir qué se posterga.** Un "sí" sin costo esconde un "no" a otra cosa.
+
 ## Handoff a desarrollo
 
 Antes de pasar una historia al Agente de Desarrollo, verificar que el spec incluya:

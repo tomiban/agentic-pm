@@ -32,6 +32,7 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 | Decisiones técnicas | `architecture/decisions/` |
 | MVP y fases | `roadmap/` |
 | Trazabilidad | `traceability/` |
+| Cambios sobre requisitos | `traceability/change-log.md` |
 | Guías de método | `references/` |
 
 ## Referencia de formato
