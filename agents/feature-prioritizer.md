@@ -63,6 +63,28 @@ Bajo valor, alto esfuerzo  (Evitar)             → descartar
 - **Día 1 vs Día 100:** lo del Día 1 habilita la primera impresión; lo del Día 100, la
   retención. MVP = solo lo del Día 1.
 
+### Costo de postergar — cuando el tiempo importa
+
+RICE no distingue entre "ahora" y "en 2 meses". Si dos funcionalidades tienen score
+similar pero una pierde valor cada mes que pasa, esa va primero:
+
+```text
+Costo de postergar = valor por período × tiempo de retraso
+```
+
+Ver `references/alcance-y-objetivos.md`.
+
+### Scoring por oportunidad — cuando el cliente ya usa algo
+
+Diferente de "lo que el cliente pide". Puntúa importancia vs satisfacción actual (1-10):
+
+```text
+Score = Importancia + (Importancia − Satisfacción)
+```
+
+Alto puntaje = importante pero mal resuelto hoy. El cliente suele pedir lo que ya le
+funciona, no lo que le falta.
+
 ### Kano — para entender qué espera el usuario
 
 | Categoría | Qué significa | Ejemplo |
@@ -87,6 +109,35 @@ Cuando la decisión no es solo valor/esfuerzo, ponderar criterios:
 | Riesgo (invertido) | 20% | 4 | 4 |
 | Dependencias | 15% | 3 | 5 |
 | **Total** | | **3.75** | **3.95** |
+
+## Tipos de trabajo
+
+No todo compite igual. Un bug crítico **desplaza** a una funcionalidad; no compite con ella.
+
+| Tipo | Cómo priorizar |
+|------|----------------|
+| Funcionalidad nueva | RICE / MoSCoW |
+| Corrección | por severidad, no por valor |
+| Deuda técnica | por costo de no pagarla |
+| Spike (investigar) | por riesgo que desbloquea |
+
+## Congelar el MVP
+
+Una vez acordado: las funcionalidades son flexibles, **la fecha no**. Un cambio de
+alcance requiere sacar algo o mover la fecha. Lo nuevo entra a V1/V2, no al MVP.
+
+Registrar cada excepción en `traceability/change-log.md`.
+
+## Documentar la decisión
+
+```text
+Decisión:    Construir solicitudes antes que notificaciones
+Fundamento:  RICE 185 vs 120; resuelve PROB-01
+Costo:       notificaciones se posterga 1 fase
+Riesgo:      sin confirmación al ciudadano hasta V1
+```
+
+**"Cada sí es un no a otra cosa."** Si no podés decir qué se posterga, no decidiste.
 
 ## Validación de alcance
 

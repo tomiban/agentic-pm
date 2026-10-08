@@ -31,7 +31,14 @@ PREGUNTA   | ¿Qué sucede después del rechazo? ¿Se puede reabrir?
 - Las preguntas abiertas son artefactos de primera clase, no comentarios.
 - Los supuestos se marcan explícitamente, nunca se esconden.
 
-## Método detallado
+## Guía de entrevista
+
+Ver `references/entrevistas.md`: preguntar por el **pasado, no por el futuro**
+("¿cómo lo hiciste la última vez?" en vez de "¿usarías una app?"), no proponer
+soluciones durante el relevamiento, y llegar a la causa raíz con las 5 causas
+cuando el síntoma no alcanza.
+
+## Método de síntesis
 
 Ver `references/sintesis-relevamiento.md`:
 1. **Extracción literal** con referencia (`[reunión-01 00:14:32]`)

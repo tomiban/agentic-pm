@@ -42,6 +42,9 @@ Ante dudas de formato o nivel de detalle, mirá `examples/solicitudes/`.
 Antes de dar una historia por terminada, recorré `references/casos-borde.md` y
 verificá INVEST en `references/tecnicas-especificacion.md`.
 
+Las guías en `references/` son de método: se consultan cuando hacen falta, no se
+copian. Ver `references/README.md` para el índice completo.
+
 ## Orden de ejecución
 
 ```text

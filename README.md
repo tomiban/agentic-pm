@@ -76,4 +76,11 @@ project/
 - `agents/` — definición y responsabilidades de cada agente.
 - `QUICKSTART.md` — cómo arrancar un proyecto nuevo en 5 pasos.
 - `examples/solicitudes/` — caso de referencia completo end-to-end.
-- `references/` — guías de método: `casos-borde.md`, `tecnicas-especificacion.md`, `sintesis-relevamiento.md`, `gestion-cambios.md`.
+- `references/` — guías de método:
+  - `casos-borde.md` — checklist de ~100 casos borde
+  - `tecnicas-especificacion.md` — las 3 C, INVEST, criterios, anti-patrones
+  - `sintesis-relevamiento.md` — procesar notas de reunión
+  - `gestion-cambios.md` — cambios sobre requisitos validados
+  - `alcance-y-objetivos.md` — objetivos, priorización, control de alcance
+  - `entrevistas.md` — cómo relevar sin inducir
+  - `roadmap-fases.md` — fases, buffer, mantenimiento

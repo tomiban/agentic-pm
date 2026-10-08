@@ -9,6 +9,9 @@ en español, basado en prácticas estándar de ingeniería de requisitos.
 | `tecnicas-especificacion.md` | Las 3 C, INVEST, 3 formatos de criterios, división de historias, anti-patrones, RNF medibles | Agente de Requisitos |
 | `sintesis-relevamiento.md` | Extracción literal, clasificación, mapa de afinidad, análisis temático, contradicciones | Agente de Relevamiento |
 | `gestion-cambios.md` | Clasificación de cambios, análisis de impacto, congelamiento por fase, registro | Agente de Requisitos |
+| `alcance-y-objetivos.md` | SMART/OKR/métrica principal, costo de postergar, scoring por oportunidad, tipos de trabajo, crecimiento de alcance | Agente de Priorización |
+| `entrevistas.md` | Guía de reunión, reglas de entrevista, 5 causas, detección de respuestas inducidas | Agente de Relevamiento / Investigación |
+| `roadmap-fases.md` | Buffer, composición de fase, dependencias, criterios de finalización, mantenimiento, anti-patrones | Agente de Roadmap |
 
 ## Principio
 

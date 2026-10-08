@@ -22,6 +22,14 @@ Investiga lo que el cliente no puede responder: dominio, normativa, integracione
 4. **Marcar el nivel de confianza:** confirmado por fuente oficial / inferido / no resuelto.
 5. **Detectar contradicciones** con el relevamiento: si la normativa dice algo distinto a lo que el cliente supone, es un hallazgo, no un detalle.
 
+## Evidencia y citas
+
+- Citar **textual** entre comillas solo si es verbatim; si parafraseás, marcar `[paráfrasis]`
+- Un **tema** requiere ≥3 menciones independientes; 1-2 es indicio, no patrón
+- Registrar frecuencia: `[mencionado por 5 de 8]`
+- Si el dato es ambiguo: `[baja confianza]` o `[requiere validación]`
+- **Nunca inventar una cita, un dolor o un pedido** para completar un tema
+
 ## Regla
 
 Si no hay fuente, **no hay respuesta**. Se registra como no resuelto y se escala al
