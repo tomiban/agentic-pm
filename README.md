@@ -45,7 +45,8 @@ project/
 ├── discovery/                 # Relevamiento: reuniones, entrevistas, research
 ├── requirements/              # Actores, procesos, módulos, reglas, RF/RNF
 ├── epics/                     # Épicas (agrupan historias)
-├── stories/                   # Historias de usuario + criterios de aceptación
+├── stories/                   # Historias de usuario (vista del cliente)
+├── tasks/                     # Tareas (vista del dev, autosuficientes)
 ├── prds/                      # PRD (vista derivada que resume y enlaza)
 ├── specs/                     # Especificación técnica (contratos, modelo de datos)
 ├── architecture/              # Contexto, contenedores, decisiones (ADRs)
@@ -62,6 +63,7 @@ project/
 3. **Validación incremental.** El cliente valida cada nivel antes de avanzar al siguiente.
 4. **Living documentation.** El repositorio es la fuente de verdad, no las conversaciones con la IA.
 5. **Separación de responsabilidades.** Cada agente hace una cosa: relevamiento, requisitos, priorización, roadmap.
+6. **El dev implementa desde la tarea.** Cada tarea lleva sus criterios de aceptación, para no saltar de archivo. No hace falta adoptar un framework SDD completo.
 
 ## Cómo empezar
 

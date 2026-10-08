@@ -34,7 +34,7 @@ Cargá las notas. Luego invocá el **Agente de Relevamiento** (`agents/discovery
 | Modelado | `agents/requirements-engineer.md` | modules, RF/RNF, épicas, historias |
 | Priorización | `agents/feature-prioritizer.md` | `roadmap/mvp.md`, `roadmap/prioritization.md` |
 | Roadmap | `agents/roadmap-builder.md` | `roadmap/roadmap.md` |
-| Desarrollo | `agents/development.md` | `specs/` + backlog técnico |
+| Desarrollo | `agents/development.md` | `tasks/T-XXX.md` (autosuficientes) + `specs/` si hace falta |
 
 ## 5. Verificar progreso
 

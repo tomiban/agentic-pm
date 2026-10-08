@@ -27,7 +27,8 @@ Este repositorio implementa un **proceso de análisis funcional asistido por age
 | RF / RNF | `requirements/functional.md`, `non-functional.md` |
 | Módulos | `requirements/modules.md` |
 | Épicas | `epics/` |
-| Historias | `stories/US-XXX.md` |
+| Historias (vista cliente) | `stories/US-XXX.md` |
+| Tareas (vista dev, autosuficientes) | `tasks/T-XXX.md` |
 | PRD (vista, no copia) | `prds/` |
 | Spec técnica (contratos, modelo de datos) | `specs/` |
 | Decisiones técnicas | `architecture/decisions/` |
@@ -48,7 +49,13 @@ copian. Ver `references/README.md` para el índice completo.
 
 **No duplicar información entre artefactos.** Cada uno responde una sola pregunta
 (por qué / qué / cómo / en qué orden). El PRD resume y enlaza; nunca copia requisitos
-ni historias. Ver `references/capas-documentacion.md`.
+ni historias.
+
+**Excepción deliberada:** una tarea **sí** copia los criterios de aceptación de su
+historia. Así el dev implementa sin saltar de archivo. Copiar un criterio corto para
+dar autonomía no es duplicar; copiar un documento entero sí.
+
+Ver `references/capas-documentacion.md`.
 
 ## Orden de ejecución
 

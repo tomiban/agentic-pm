@@ -28,9 +28,28 @@ Historia  "Como ciudadano, quiero crear         comportamiento observable
 Tarea     "Crear endpoint POST /solicitudes"    unidad de trabajo
 ```
 
-Una épica **no** repite las historias: las agrupa. Una tarea **no** repite la historia:
-la implementa. Si al escribir la tarea tenés que copiar los criterios de aceptación,
-estás haciendo la tarea mal (debería ser "hacer que se cumpla AC-001").
+Una épica **no** repite las historias: las agrupa. Una tarea **no** reescribe la historia:
+la implementa.
+
+### La excepción: la tarea es autosuficiente
+
+Copiar los **criterios de aceptación** de la historia a la tarea **no es duplicar**: es
+hacer que el dev pueda trabajar sin saltar de archivo. La historia es la vista del
+cliente; la tarea es la vista del dev. Mismo criterio, distinta audiencia, y el
+criterio es corto y estable.
+
+```text
+✓ Tarea autosuficiente:          ✗ Tarea que obliga a saltar:
+  "Criterios de aceptación"        "cumple AC-001" (¿cuál era?)
+  Given/When/Then copiado          → el dev abre stories/US-001.md
+  + ID de la historia (US-001)     → pierde el contexto al cambiar de archivo
+```
+
+Lo que **no** se copia: la justificación de negocio, los casos borde completos, el
+contexto de la épica. Eso vive en la historia y se enlaza.
+
+**Distinción:** copiar un criterio corto para que una tarea sea autosuficiente es
+deliberado. Copiar un documento entero a otro es deriva esperando a pasar.
 
 ## El PRD como vista derivada
 
